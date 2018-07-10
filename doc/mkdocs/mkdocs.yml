@@ -1,0 +1,44 @@
+site_name: Π4U
+repo_name: 'cselab/pi4u'
+repo_url: 'https://github.com/cselab/pi4u'
+
+
+pages:
+  - Home: index.md
+  - Installation: installation.md
+  - Examples:
+      - Sampling: examples/sampling.md
+      - External: examples/external.md
+      - Optimizing: examples/optimizing.md
+      - Postprocessing: examples/post.md
+  - Developing:
+      - Structure: developing/structure.md
+      - Conventions: developing/conventions.md
+      - Par files: developing/par_files.md
+      - Likelihoods: developing/likelihoods.md
+      - Upcoming: developing/upcoming.md
+      - Beta: developing/beta.md
+  - Performance: hpc.md
+  - References: references.md
+
+theme:
+    name: material
+    palette:
+        primary: 'light blue'
+        accent: 'blue'
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
+    logo:
+        icon: 'pie_chart'
+
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - admonition
+  - codehilite
+
+
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'

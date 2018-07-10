@@ -1,0 +1,26 @@
+# DRAM configuration file
+# The user should spesify each of the parameters, unless written otherwise
+
+
+#------------------------ GENERAL OPTIONS -------------------------------------
+# Problem dimension
+Npar		4
+
+# Chain length
+Nsim		100000
+
+# DR shrink factor
+DRscale		20
+
+# Time interval for the adaptation
+AMinterv	500
+
+# Initial covariance matrix: diag(Co)
+Co		5
+
+# Print info on screen every this many steps
+printfreq	2000
+
+
+# Initial point of the chain
+par0  1.  1.  1.  1.  

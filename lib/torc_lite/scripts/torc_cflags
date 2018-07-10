@@ -1,0 +1,1 @@
+echo -I//home/s3052081/usr/include -D_REENTRANT

@@ -1,0 +1,1 @@
+echo -L//home/s3052081/usr/lib -ltorc -lpthread
