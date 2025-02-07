@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JeeseopKim">
+    <title>JunKyu Lee | Research</title>
+    
+    <link rel="stylesheet" href="jemdoc.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#menulist").load("src_research_menulist.html");
+            $("#research_cooperation").load("src_research_cooperation.html");
+            $("#research_safety").load("src_research_safety.html");
+            $("#research_leggedrobots").load("src_research_leggedrobots.html");
+            $("#research_etc").load("src_research_etc.html");
+        });
+    </script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        #toptitle {
+            text-align: center;
+            background: linear-gradient(90deg, #007BFF, #00C6FF);
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        
+        .button-89 {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .button-89:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+        
+        img {
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        img:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+        
+        #footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="toptitle">JunKyu Lee's Research</div>
+    
+    <div class="container">
+        <h2>Research Statement</h2>
+        <p>My research aims to develop theoretical frameworks and tools for energy-efficient computing and robust energy-efficient machine learning in order to support resilient and energy-efficient AI systems. My current interest expands to robotics.</p>
+    </div>
+    
+    <div class="container">
+        <h2>Research Areas</h2>
+        <p class="centered">
+            <a href="page_research.html" class="button-89">Overview</a> <br>
+            <a href="eec.html" class="button-89">Energy-Efficient Computing <img src="imgs_compressed/cooperative_loco_trim.gif" width="275px" style="opacity: 0.8"></a>
+            <a href="page_research_etc.html" class="button-89">Mixed Precision Methods <img src="imgs_compressed/hddpc.gif" width="275px" style="opacity: 0.8"></a><br>
+            <a href="page_research_safety.html" class="button-89">Adaptive AI Systems <img src="imgs_compressed/safe_coordination.gif" width="275px" style="opacity: 0.8"></a>
+            <a href="page_research_bi_quad.html" class="button-89">Robust Energy-Efficient Machine Learning <img src="imgs_compressed/achilles.gif" width="275px" style="opacity: 0.8"></a>
+        </p>
+    </div>
+    
+    <div id="research_cooperation" class="container"></div>
+    <div id="research_safety" class="container"></div>
+    <div id="research_leggedrobots" class="container"></div>
+    <div id="research_etc" class="container"></div>
+    
+    <div id="footer">Page generated &copy; 2025</div>
+    
+</body>
+</html>
